@@ -3,4 +3,4 @@ def my_select(collection)
  puts yield 123
 end
 
-my_select {"123"}
+my_select(123) {"123"}
