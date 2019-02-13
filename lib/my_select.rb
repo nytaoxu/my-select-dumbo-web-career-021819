@@ -1,6 +1,7 @@
 def my_select(collection)
  # your code here!
- puts yield 123
+ x = 10
+ puts yield x
 end
 
 my_select(123) {"123"}
