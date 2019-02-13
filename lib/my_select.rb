@@ -5,4 +5,4 @@ def my_select(collection)
  puts y.class
 end
 
-my_select(123) {""}
+my_select(123) {puts 123}
